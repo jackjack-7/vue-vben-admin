@@ -166,6 +166,14 @@ const routes: RouteRecordRaw[] = [
             },
           },
           {
+            name: 'VxeTableFormExample1',
+            path: '/examples/vxe-table/form1',
+            component: () => import('#/views/examples/vxe-table/form1.vue'),
+            meta: {
+              title: $t('page.examples.vxeTable.form1'),
+            },
+          },
+          {
             name: 'VxeTableEditCellExample',
             path: '/examples/vxe-table/edit-cell',
             component: () => import('#/views/examples/vxe-table/edit-cell.vue'),
